@@ -1,0 +1,11 @@
+$schedule-background = '../resources/bg.png';
+$schedule-title-color = 'white';
+
+.scheduleBackground {
+  background: url($schedule-background) no-repeat center;
+  background-size: 100%;
+}
+
+.scheduleDayTitle {
+  color: $schedule-title-color;
+}

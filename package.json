@@ -1,0 +1,24 @@
+{
+  "name": "sgb-screen-schedule",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SYNERGY-GB/sgb-screen-schedule.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SYNERGY-GB/sgb-screen-schedule/issues"
+  },
+  "homepage": "https://github.com/SYNERGY-GB/sgb-screen-schedule",
+  "devDependencies": {
+    "browserify": "9.0.3",
+    "gulp": "^3.8.11",
+    "vinyl-transform": "^1.0.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "sgb-screen-schedule",
+  "version": "0.0.0",
+  "homepage": "https://github.com/SYNERGY-GB/sgb-screen-schedule",
+  "authors": [
+    "Saul Hernandez <sauldhernandez@gmail.com>"
+  ],
+  "main": "dist/sgb-screen-schedule.js",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "Propietary",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "megazord-framework": "git@github.com:SYNERGY-GB/megazord-framework.git#master"
+  }
+}

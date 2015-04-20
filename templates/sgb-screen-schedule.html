@@ -1,0 +1,16 @@
+<ion-view view-title="{{ schedule_title | translate }}" class="scheduleBackground">
+    <ion-content>
+        <div class="list card opaque" ng-repeat="day in schedule">
+
+            <div class="item item-positive item-divider">
+                <h2 class="scheduleDayTitle">{{day.title}}</h2>
+            </div>
+
+            <p ng-repeat="item in day.schedule">
+                <i class="icon ion-ios-clock-outline padding-right 10px padding-left 10px"></i>
+                <i class="padding-right 10px">{{item.time}}</i>
+                <i class="padding-right 10px">{{item.title}}</i>
+            </p>
+        </div>
+    </ion-content>
+</ion-view>
