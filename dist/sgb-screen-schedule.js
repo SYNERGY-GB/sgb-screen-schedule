@@ -1,12 +1,2 @@
-(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
-'use strict';
-
-angular.module('sgb-screen-schedule', ['megazord'])
-    .controller('sgb-screen-schedule-controller', ['$stateParams', '_screen', '_screenParams', '$scope', function($stateParams, _screen, _screenParams, $scope){
-        _screen.initialize($scope, _screenParams);
-
-        $scope.schedule = $stateParams.data;
-    }]);
-
-
-},{}]},{},[1]);
+!function e(r,n,t){function o(i,c){if(!n[i]){if(!r[i]){var s="function"==typeof require&&require;if(!c&&s)return s(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var f=n[i]={exports:{}};r[i][0].call(f.exports,function(e){var n=r[i][1][e];return o(n?n:e)},f,f.exports,e,r,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}({1:[function(e,r,n){"use strict";angular.module("sgb-screen-schedule",["megazord"]).controller("sgb-screen-schedule-controller",["$stateParams","_screen","_screenParams","$scope",function(e,r,n,t){r.initialize(t,n),t.schedule=e.data}])},{}]},{},[1]);
+//# sourceMappingURL=sgb-screen-schedule.js.map
