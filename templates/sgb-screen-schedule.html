@@ -1,6 +1,6 @@
-<ion-view view-title="{{ title | translate }}" class="scheduleBackground">
+<ion-view mz-screen view-title="{{ title | translate }}" class="scheduleBackground">
     <ion-content>
-        <div class="list card opaque" ng-repeat="day in schedule">
+        <div class="list card" ng-repeat="day in schedule">
 
             <div class="item item-positive item-divider">
                 <h2 class="scheduleDayTitle">{{day.title}}</h2>
